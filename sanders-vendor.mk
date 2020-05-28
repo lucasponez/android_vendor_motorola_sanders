@@ -1425,7 +1425,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/system_ext/framework/qti-vzw-ims-internal.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/qti-vzw-ims-internal.jar \
     vendor/motorola/sanders/proprietary/system_ext/framework/rcsimssettings.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/rcsimssettings.jar \
     vendor/motorola/sanders/proprietary/framework/tcmclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/tcmclient.jar \
-    vendor/motorola/sanders/proprietary/system_ext/framework/qti-telephony-common.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/qti-telephony-common.jar
+    vendor/motorola/sanders/proprietary/system_ext/framework/qti-telephony-common.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/qti-telephony-common.jar \
+    vendor/motorola/sanders/proprietary/vendor/lib/libllvd_sw_tnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvd_sw_tnr.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_sw_tnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw_tnr.so
 
 # DTV Libs
 PRODUCT_COPY_FILES += \
